@@ -1,0 +1,22 @@
+.Banner {
+  @apply bg-[url('Images/banner.png')] pt-[21px] relative mb-[98px];
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerHeading h1 {
+  @apply pt-[240px] font-[ibmPlexSans] font-[700] text-[72px] text-[#FFFFFF] text-center m-auto w-[819px] mb-[48px];
+}
+.bannerButton{
+    @apply flex justify-center items-center gap-[57px] pb-[219px]
+}
+.bannerButton button{
+    @apply px-[40px] py-[20px] bg-[#fff] rounded-[10px] font-[ibmPlexSans] font-[700] text-[18px] text-[#000]
+}
+.bannerButton button:hover{
+    @apply bg-[#FF9600]
+}
+/* .bannerBottom img{
+    @apply 
+
+} */

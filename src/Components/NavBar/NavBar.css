@@ -1,0 +1,15 @@
+.navRow{
+    @apply flex gap-[120px] items-center pt-[21px] absolute z-10;
+}
+.navMenu ul{
+    @apply flex gap-[50px] items-center
+}
+.navMenu ul li a{
+    @apply font-[ibmPlexSans] font-[700] text-[18px] text-[#F6F0F0]
+}
+.navMenu ul li a:hover{
+    @apply text-[#FF9600]
+}
+.navButton button{
+    @apply font-[ibmPlexSans] font-[700] text-[18px] text-[#FFFFFF] bg-[#FF9600] px-[51px] pt-[23px] pb-[18px] rounded-[10px]
+}
