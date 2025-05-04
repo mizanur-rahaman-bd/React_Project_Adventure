@@ -1,0 +1,9 @@
+.joinUs{
+    @apply py-[98px] 
+}
+.joinUsRow{
+    @apply flex justify-between items-center
+}
+.joinUsTextCol{
+    @apply w-[595px]
+}
