@@ -1,9 +1,24 @@
-.joinUs{
-    @apply py-[98px] 
+.joinUs {
+  @apply py-[98px];
 }
-.joinUsRow{
-    @apply flex justify-between items-center
+.joinUsRow {
+  @apply flex justify-between items-center;
 }
-.joinUsTextCol{
-    @apply w-[595px]
+.joinUsTextCol {
+  @apply w-[580px];
+}
+.joinUsCurveText p {
+  @apply font-[yellowtail] font-[400] text-[30px] text-[#49C4F5];
+}
+.joinUsTextHeading h2 {
+  @apply font-[ibmPlexSans] font-[700] text-[54px] text-[#222222] mt-[4px] mb-[68px];
+}
+.joinUsMiddleText p {
+  @apply font-[ibmPlexSans] font-[400] text-[18px] text-[#000000] mb-[36px];
+}
+.joinUsTextBullet ul li {
+  @apply list-[disc] font-[ibmPlexSans] font-[400] text-[18px] text-[#000000];
+}
+.joinUsTextButton button {
+  @apply px-[35px] py-[18px] bg-[#FF9600] rounded-[8px] font-[ibmPlexSans] font-[700] text-[18px] text-[#ffffff] mt-[48px];
 }
